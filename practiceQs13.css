@@ -1,0 +1,28 @@
+*{
+    font-family: 'Courier New';
+}
+
+h1{
+    color: #1b74e4;
+}
+
+#searchbtn{
+    background-color: #000;
+    color: #fff;
+}
+
+/* I can give individual ids to both the buttons instead of class like 
+in html
+ <button="login">Log in</button>
+ <button="register">Register</button>
+in css::
+ #login ,
+ #register{
+     background-color:aqua;
+ }
+     */
+
+
+.userbtn{
+    background-color: aqua;
+}
