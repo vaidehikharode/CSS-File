@@ -1,0 +1,12 @@
+
+/*h2 is the block element*/
+h2{
+    display:inline;  /*it will act as the inline element , inspect it*/
+    background-color: aquamarine;
+}
+
+/*span is the inline element*/
+span{
+    display:block;  /*it will act as the block element*/
+    background-color: bisque;
+}
