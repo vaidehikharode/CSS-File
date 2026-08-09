@@ -1,0 +1,25 @@
+
+Basic Concepts
+span{   /* span is the inline element*/
+    /*background-color: aqua; */
+    border: 2px solid black;
+    height: 200px;  /*non applicable*/
+    width: 300px;   /*non applicable*/
+    padding: 50px;  /*applicable to left and right only*/
+    margin: 20px;   /*applicable to left and right only*/
+    
+}
+
+/*now I am converting div to p and creating the another div in same html file(changes) to see 
+how it will look in the block element*/
+
+div{
+    border: 2px solid black;
+    height: 200px;  
+    width: 300px;   
+    padding: 50px;  
+    margin: 20px; 
+    /* everything is applicable to the div(block element)*/
+}
+
+/*for more go to apna college documents and see the pdf regarding this*/

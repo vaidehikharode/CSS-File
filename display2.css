@@ -1,0 +1,13 @@
+
+/*Basic Concepts*/
+span{   /* span is the inline element*/
+    /*background-color: aqua; */
+    border: 2px solid black;
+    height: 200px;  /*non applicable*/
+    width: 300px;   /*non applicable*/
+    padding: 50px;  /*applicable to left and right only*/
+    margin: 20px;   /*applicable to left and right only*/
+    
+}
+
+
