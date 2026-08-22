@@ -1,0 +1,26 @@
+/*if font size is 1em then there will be no change in font size as font size of every div is 1em of section means
+same size of section and all divs
+
+div{
+    font-size: 1em;
+}
+*/
+
+/*but if I give 2em to div then the size of every div will be double of the extream previous of it means increaning
+in multiple of 2*/
+section{
+    font-size: 15px;
+}
+
+*div{
+    font-size: 2em;
+} 
+
+
+/*same thing will applicable in decreasing order as:
+
+div{
+    font-size: 0.5em;
+}
+    
+*/

@@ -1,0 +1,11 @@
+button{
+    font-size: 50px;
+    border-radius: 15px;
+    border: 5px solid green;
+    /*padding-left: 20px;
+    padding-right: 20px;        if i am going to change the font size, the padding will also increases and decreases 
+                                accordingly, but for maling the padding constant see the following; */
+    padding-left: 1em;   /*now the padding will be constant from left and right irrespective of changing the fontsize*/
+    padding-right: 1em;   /*there will be the padding of '50px' from left and right*/                        
+
+}

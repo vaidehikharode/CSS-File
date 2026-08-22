@@ -1,0 +1,10 @@
+section{
+    font-size: 15px;
+}
+/*section is the root of every div*/
+
+div{
+    font-size: 2rem;
+}
+/*every div will have the font size 2 times of section's. All the divs have same size(2*15px) and the section's font
+size is 15px*/
