@@ -1,0 +1,7 @@
+.list{
+   display: inline-block;  /*Answer of the question asked under this question in ass = When you change a list item 
+                            (<li>) or a list container (<ul>/<ol>) to inline-block, 
+                            it changes its layout behavior from a standard block-level list item to an inline element.
+                            This inherently removes the default list marker (the bullet point) because inline 
+                            formatting contexts do not support list item markers.*/
+}

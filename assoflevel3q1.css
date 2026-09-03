@@ -1,0 +1,10 @@
+#box{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px black dotted;
+    margin: 20px 1em 40px 2em;
+   /*it will show the left margin of 32 and right of 16 bcoz the default font size here is 
+    16px(detected from google) so 1em of 16px = 16 and 2em of 16px = 32*/
+    
+}
