@@ -28,3 +28,27 @@ div:nth-of-type(3n){
     here 1 is also rotated bcoz the transform applies on the whole element with its all contents*/
     transform: rotate(-45deg);
 }
+
+/*scale*/
+#two{
+    /*transform: scale(1.5);*/
+    transform: scaleX(0.5);
+}
+
+/*translate*/
+
+#three{
+    /*transform: translate(100px,100px);
+    transform: translateX(100px);*/
+    transform: translateX(-100px);
+}
+
+/*skew*/
+#four{
+    transform: skew(30deg); /*skew(-30deg)*/
+}
+
+/*all shorthands*/
+#five{
+    transform: rotate(56deg) scale(2) translateX(90px) skew(-45deg);
+}
