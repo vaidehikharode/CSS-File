@@ -1,0 +1,27 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,0,0, 0.5);
+}
+
+/* if there was a=0 then the color would be hidden, if a=1 the color would be 100% visible, but there is a=0.5 and
+now the color is translusant means blur or not 100% red*/
+
+h1{
+    height: 200px;
+    width: 200px;
+    background-color: #00ff00a9;
+}
+
+/*the above color is in hex code with the last two digit(a9) as alpha value*/
+
+#opacity{
+    background-color: #ffa511;
+    opacity: 0.6;
+}
+
+/*comparing the first div and the div of id=opacity, if the opacity means alpha of first div becoms 0 then the 
+backgroung color will be hidden and the heading will display. In the case of the opacity of #opacity div not
+only the background color but the elements also will be hidden or blur or visisible according to the value of opacity.
+This is becoz the alpha sets the opacity of color only but the opacity(visibility) sets the visibility of the 
+elements too.*/
