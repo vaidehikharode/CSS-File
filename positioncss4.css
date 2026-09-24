@@ -1,0 +1,46 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static{
+    background-color: yellow;
+    position: static;
+    top: 100px; /*block should shift 100px from top to bottom but not happen in static*/
+    left: 100px; /*block should shft 100px from left to right but not happen in static*/
+    
+}
+/*changes in the position of block are with respect to the top left corner of the page but there will be no change after applying the 
+statis position*/
+
+#relative{
+    background-color: yellow;
+    position: relative; /*block will shift with respect to its previous positionand even after shifting to another place it will hold the 
+    previous space also means no other block can take its place*/
+    top: 100px; 
+    left: 100px;
+}
+/*changes in the position of the block are with respect to its previos position according to the top and left,etc.*/
+
+#absolute{
+    background-color: yellow;
+    position: absolute; /*section doen't contain position that's why the center of this block is the whole page,so the block will shift
+       100px from the top of the page and 100px from the left side of the page and it will not occupy the unnecessary space like in the
+       relative position*/
+    top: 100px; 
+    left: 100px;
+}
+
+
+#fixed{
+    background-color: yellow;
+    position: fixed;/*block will shift with the fixed position like the absolute block shifted and similarly will not occupy the 
+    unnecessary space*/
+    top: 100px; 
+    left: 100px; 
+}

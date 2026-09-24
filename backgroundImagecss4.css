@@ -1,0 +1,11 @@
+div{
+    width: 1200px;
+    height: 500px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url(metropolitanArt.jpg);
+    /*background-size: contain;
+    background-size: auto;*/
+    background-size: cover;
+    color: orangered;
+}
