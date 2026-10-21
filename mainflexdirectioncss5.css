@@ -1,0 +1,22 @@
+#container{
+    height: 300px;
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-color: azure;
+    display: flex; 
+    flex-direction: row-reverse; /*the row will start from right to left means violet will start its sequence from right and 
+    same for column(top to bottom) and column-reverse(bottom to top)*/
+}
+
+h1{
+    text-align: center;
+}
+
+ #container div{
+    height: 100px; /*every div has caught the height of 42.86*/
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

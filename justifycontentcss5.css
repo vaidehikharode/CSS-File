@@ -1,0 +1,34 @@
+#container{
+    height: 300px;
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-color: azure;
+    display: flex; 
+    /*flex-direction: row;
+    justify-content: flex-start; /*starting element will be at starting point means left similar in column(top)*/
+    /*flex-direction: column-reverse;
+    justify-content: flex-end; /* as here is column reverse and in column reverse elements are arranged from bottom to top
+     so that the last element will be at top and according to flex end the extra space will remain at bottom and red will end at
+     top*/ 
+    /* flex-direction: column;
+     justify-content: center; */
+     /*flex-direction: row;
+     justify-content: space-between;*/
+     /*flex-direction: row;
+     justify-content: space-around;*/
+     flex-direction: row;
+     justify-content: space-evenly; /* similar for column,row-reverse and column-reverse*/
+}
+
+h1{
+    text-align: center;
+}
+
+ #container div{
+    height: 30px; /*every div has caught the height of 42.86*/
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

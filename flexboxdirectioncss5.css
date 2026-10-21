@@ -1,0 +1,36 @@
+#container{
+    height: 300px;
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-color: azure;
+    display: flex; /* default direction is in row */
+    /*for vertical form use following*/
+    flex-direction: column;
+    /*flex-direction:row ; /*for second #container div*/
+}
+
+h1{
+    text-align: center;
+}
+
+ #container div{
+    height: 100px; /*every div has caught the height of 42.86*/
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+/* container overflowed, so first make the container flex*/
+
+/*
+#container div{
+    height: 100px; 
+    width: 50px; /*if i give the less width than the container width, all the colors will occupy the width according to mentioned
+                   here by dividing it equally. But if i give the more width than the container width, all the colors will divide the width 
+                   but will adjust the divided width in such a way that it will not overflow.
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+*/

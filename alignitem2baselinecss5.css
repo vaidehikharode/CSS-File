@@ -1,0 +1,25 @@
+#container{
+    height: 600px;
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-color: azure;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: baseline; /*baseline arranges all the texts of all elements in a single line whether the size of that element 
+                            is larger or small, if you have to understand clearly remove the flex-wrap and see*/
+}
+
+h1{
+    text-align: center;
+}
+
+ #container div{
+    height: 100px; 
+    width: 300px; 
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

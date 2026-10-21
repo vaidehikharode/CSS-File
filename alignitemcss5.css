@@ -1,0 +1,27 @@
+#container{
+    height: 300px;
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-color: azure;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /*align-items: flex-starts; /*elements will shift at top*/
+    /*align-items: flex-end;  /*elements will shift at bottom of their heights individually*/
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+ #container div{
+    height: 50px; 
+    width: 300px; /*at the width of 300 and height of 100 as their space is fully occupied it will not show the result, for 
+                    result i have to reduce the height*/
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
