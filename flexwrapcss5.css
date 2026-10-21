@@ -1,0 +1,35 @@
+#container{
+    height: 300px;
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-color: azure;
+    display: flex; 
+    /*flex-direction: row;*/
+    /*flex-direction: column;*/
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    /*flex-wrap: nowrap; /* nowrap is the default flex-wrap*/
+    /*flex-wrap: wrap; /*elements are arranged from left and top to right and bottom*/
+    /*flex-wrap: wrap-reverse; /*elements are arranged from left and bottom to right and top, cross axis:bottom-top, 
+                                 main axis: left to right*/
+    /*flex-wrap: wrap; /*wrapped along column*/
+    /*flex-wrap: wrap-reverse; /*wrapped along column along cross axis*/
+    /*flex-wrap: wrap;*/
+    flex-wrap: wrap-reverse;
+}
+
+h1{
+    text-align: center;
+}
+
+ #container div{
+    height: 100px; 
+    width: 300px;  /* i have given all the elements the width of 300px but according to the size of container all elements will
+                   adjust the width together not to overflow means size of each element/color will be less than 300 for that there 
+                   is the 
+                   concept of flex wrap*/
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
